@@ -4,11 +4,19 @@ import { FaNode } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiJavaLine } from "react-icons/ri";
+import { RiNextjsFill } from "react-icons/ri";
+
 import ProgressBar from "../ProgressBar";
 import Tag from "../Tag";
 
 const Skill = (props) => {
   const skills = [
+    {
+      title: "Next",
+      percentage: "85%",
+      Icon: RiNextjsFill,
+      barWidth: "w-17/20",
+    },
     {
       title: "React",
       percentage: "90%",
